@@ -294,6 +294,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2025-03-27 02:47:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2025-03-27 01:59:12 +0000"
@@ -490,11 +496,14 @@
     "criteria": {
       "forest": "2025-03-27 02:20:17 +0000",
       "birch_forest": "2025-03-27 02:11:20 +0000",
+      "deep_ocean": "2025-03-27 02:48:45 +0000",
       "beaches": "2025-03-27 01:48:17 +0000",
       "forest_hills": "2025-03-27 02:25:27 +0000",
       "plains": "2025-03-27 02:12:35 +0000",
       "taiga": "2025-03-27 01:48:28 +0000",
       "taiga_hills": "2025-03-27 01:48:50 +0000",
+      "ocean": "2025-03-27 02:49:53 +0000",
+      "cold_beach": "2025-03-27 02:54:57 +0000",
       "river": "2025-03-27 01:49:41 +0000"
     },
     "done": false
@@ -684,6 +693,12 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_cobblestone": "2025-03-27 01:55:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_stone": "2025-03-27 02:47:07 +0000"
     },
     "done": true
   },
