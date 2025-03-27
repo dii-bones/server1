@@ -265,7 +265,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "cooked_porkchop": "2025-03-27 02:03:57 +0000"
+      "cooked_porkchop": "2025-03-27 02:03:57 +0000",
+      "cooked_mutton": "2025-03-27 02:24:46 +0000"
     },
     "done": false
   },
@@ -431,6 +432,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_stone": "2025-03-27 02:17:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2025-03-27 01:59:12 +0000"
@@ -445,6 +452,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "forest": "2025-03-27 02:20:17 +0000",
       "birch_forest": "2025-03-27 02:11:20 +0000",
       "beaches": "2025-03-27 01:48:17 +0000",
       "plains": "2025-03-27 02:12:35 +0000",
@@ -615,6 +623,12 @@
       "zombie": "2025-03-27 01:50:40 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_stone": "2025-03-27 02:15:56 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
