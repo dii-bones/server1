@@ -333,3 +333,6 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
 	... 29 more
+[01:19:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TOstiCraft has made the advancement [Stone Age]
+[01:21:17] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: TOstiCraft lost connection: Disconnected
+[01:21:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TOstiCraft left the game
