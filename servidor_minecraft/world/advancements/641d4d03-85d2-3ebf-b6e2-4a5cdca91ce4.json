@@ -131,6 +131,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_at_least_9_iron_ingot": "2025-03-27 02:34:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2025-03-27 02:05:38 +0000"
@@ -179,6 +185,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2025-03-27 02:29:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_at_least_9_coal": "2025-03-27 02:14:29 +0000"
@@ -206,6 +218,12 @@
   "minecraft:recipes/building_blocks/light_blue_wool": {
     "criteria": {
       "has_white_wool": "2025-03-27 02:05:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2025-03-27 02:29:26 +0000"
     },
     "done": true
   },
@@ -294,6 +312,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_block": {
+    "criteria": {
+      "has_the_recipe": "2025-03-27 02:34:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2025-03-27 01:59:12 +0000"
@@ -321,6 +345,12 @@
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2025-03-27 02:01:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2025-03-27 02:29:25 +0000"
     },
     "done": true
   },
@@ -455,6 +485,7 @@
       "forest": "2025-03-27 02:20:17 +0000",
       "birch_forest": "2025-03-27 02:11:20 +0000",
       "beaches": "2025-03-27 01:48:17 +0000",
+      "forest_hills": "2025-03-27 02:25:27 +0000",
       "plains": "2025-03-27 02:12:35 +0000",
       "taiga": "2025-03-27 01:48:28 +0000",
       "taiga_hills": "2025-03-27 01:48:50 +0000",
@@ -620,6 +651,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "skeleton": "2025-03-27 02:26:52 +0000",
       "zombie": "2025-03-27 01:50:40 +0000"
     },
     "done": false
