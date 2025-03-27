@@ -123,6 +123,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-03-27 02:42:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
       "has_iron_ingot": "2025-03-27 02:13:22 +0000"
@@ -300,6 +306,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "skeleton": "2025-03-27 02:32:37 +0000",
+      "zombie": "2025-03-27 02:40:20 +0000",
       "spider": "2025-03-27 02:31:31 +0000"
     },
     "done": false
@@ -315,6 +322,12 @@
       "has_iron_ingot": "2025-03-27 02:13:22 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "rotten_flesh": "2025-03-27 02:42:25 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
