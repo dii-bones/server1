@@ -426,3 +426,4 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
 	... 28 more
 [01:29:05] [Server thread/INFO] [journeymap]: Sending log in packet.
+[01:44:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: bones_v has made the advancement [Sweet dreams]
