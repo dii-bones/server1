@@ -35,6 +35,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-03-28 21:20:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2025-03-27 03:18:20 +0000"
@@ -47,9 +53,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-03-28 21:29:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_door": {
     "criteria": {
       "has_planks": "2025-03-27 03:12:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wooden_slab": {
+    "criteria": {
+      "has_planks": "2025-03-28 21:30:47 +0000"
     },
     "done": true
   },
@@ -281,15 +299,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2025-03-28 21:30:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2025-03-27 03:18:20 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-03-28 21:20:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-03-28 21:29:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2025-03-27 03:13:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fence": {
+    "criteria": {
+      "has_planks": "2025-03-28 21:30:47 +0000"
     },
     "done": true
   },
@@ -301,6 +343,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-03-28 21:28:08 +0000",
       "cooked_mutton": "2025-03-27 03:16:34 +0000",
       "mutton": "2025-03-27 03:19:01 +0000",
       "bread": "2025-03-28 21:13:53 +0000"
@@ -376,6 +419,12 @@
   "minecraft:recipes/building_blocks/spruce_wooden_slab": {
     "criteria": {
       "has_planks": "2025-03-27 03:12:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/fence_gate": {
+    "criteria": {
+      "has_planks": "2025-03-28 21:30:47 +0000"
     },
     "done": true
   },
@@ -475,6 +524,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar": {
+    "criteria": {
+      "has_reeds": "2025-03-28 21:20:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-03-27 03:25:38 +0000"
@@ -555,6 +610,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "forest": "2025-03-28 21:23:16 +0000",
       "beaches": "2025-03-27 03:10:49 +0000",
       "plains": "2025-03-28 02:10:10 +0000",
       "taiga": "2025-03-27 03:11:34 +0000",
@@ -633,6 +689,12 @@
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2025-03-27 03:14:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-03-28 21:30:47 +0000"
     },
     "done": true
   },
@@ -781,6 +843,7 @@
       "skeleton": "2025-03-27 03:19:06 +0000",
       "blaze": "2025-03-28 02:05:14 +0000",
       "zombie": "2025-03-27 03:35:13 +0000",
+      "spider": "2025-03-28 21:27:07 +0000",
       "enderman": "2025-03-27 03:22:43 +0000"
     },
     "done": false
@@ -914,6 +977,12 @@
   "minecraft:recipes/decorations/blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-03-27 03:25:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_door": {
+    "criteria": {
+      "has_planks": "2025-03-28 21:30:47 +0000"
     },
     "done": true
   },
