@@ -5768,3 +5768,44 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 [21:30:58] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [21:31:08] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 80 times.
 
+[21:31:43] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:31:58] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 85 times.
+
+[21:32:28] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:32:48] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 90 times.
+
+[21:33:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:33:38] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 95 times.
+
+[21:33:58] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:34:28] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 100 times.
+
+[21:34:43] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:35:18] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 105 times.
+
+[21:35:28] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:36:08] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 110 times.
+
+[21:36:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:36:58] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 115 times.
+
+[21:36:58] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:37:43] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:37:48] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 120 times.
+
+[21:38:28] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:38:38] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 125 times.
+
+[21:39:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:39:28] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 130 times.
+
+[21:39:58] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:40:11] [Server thread/INFO] [mca]: Villager death: Pattie. Caused by: inFire. UUID: c1919054-088e-4fb2-87e7-1457e9218fe6
+[21:40:18] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 135 times.
+
+[21:40:40] [Server thread/INFO] [mca]: Villager death: Kristie. Caused by: lava. UUID: 2be5bcf6-4d14-4147-9b54-ae648d0956ac
+[21:40:41] [Server thread/INFO] [mca]: Villager death: Melvin. Caused by: lava. UUID: 9336bfc4-ce7f-475f-88d4-6ae647dc61a8
+[21:40:42] [Server thread/INFO] [mca]: Villager death: Jung. Caused by: Elpeep94. UUID: 54f457fe-82c5-47a7-97e5-c680a79f6f27
+[21:40:43] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:41:08] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 140 times.
+

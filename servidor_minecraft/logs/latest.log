@@ -244,3 +244,7 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
 	... 29 more
 [21:23:22] [Netty Epoll Server IO #3/INFO] [FML]: Disconnecting Player: This server has mods that require FML/Forge to be installed on the client: [Future MC, Minecraft Comes Alive]
+[21:40:11] [Server thread/INFO] [mca]: Villager death: Pattie. Caused by: inFire. UUID: c1919054-088e-4fb2-87e7-1457e9218fe6
+[21:40:40] [Server thread/INFO] [mca]: Villager death: Kristie. Caused by: lava. UUID: 2be5bcf6-4d14-4147-9b54-ae648d0956ac
+[21:40:41] [Server thread/INFO] [mca]: Villager death: Melvin. Caused by: lava. UUID: 9336bfc4-ce7f-475f-88d4-6ae647dc61a8
+[21:40:42] [Server thread/INFO] [mca]: Villager death: Jung. Caused by: Elpeep94. UUID: 54f457fe-82c5-47a7-97e5-c680a79f6f27

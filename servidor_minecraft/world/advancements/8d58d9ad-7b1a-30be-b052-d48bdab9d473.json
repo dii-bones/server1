@@ -612,10 +612,12 @@
     "criteria": {
       "forest": "2025-03-28 21:23:16 +0000",
       "beaches": "2025-03-27 03:10:49 +0000",
+      "forest_hills": "2025-03-28 21:36:30 +0000",
       "plains": "2025-03-28 02:10:10 +0000",
       "taiga": "2025-03-27 03:11:34 +0000",
       "taiga_hills": "2025-03-27 03:18:05 +0000",
       "ocean": "2025-03-27 03:27:35 +0000",
+      "extreme_hills": "2025-03-28 21:36:38 +0000",
       "river": "2025-03-27 03:15:15 +0000"
     },
     "done": false
@@ -809,6 +811,12 @@
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2025-03-28 16:36:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-03-28 21:32:24 +0000"
     },
     "done": true
   },
