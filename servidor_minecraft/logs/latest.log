@@ -251,3 +251,4 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 [21:41:34] [Server thread/INFO] [mca]: Villager death: Jefferson. Caused by: Arrow. UUID: 94b37ec5-7bf6-4e02-80de-03e86dc71fb7
 [21:43:36] [Server thread/INFO] [mca]: Villager death: Xochitl. Caused by: Elpeep94. UUID: dcc31d91-f013-4136-b0cc-a10bad46ed38
 [21:45:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Elpeep94 has made the advancement [Hot Stuff]
+[22:19:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Elpeep94 has made the advancement [Best Friends Forever]

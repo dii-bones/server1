@@ -5925,3 +5925,41 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 [22:11:08] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 320 times.
 
 [22:11:28] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:11:58] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 325 times.
+
+[22:12:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:12:48] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 330 times.
+
+[22:12:58] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:13:38] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 335 times.
+
+[22:13:43] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:14:28] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 340 times.
+
+[22:14:28] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:15:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:15:18] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 345 times.
+
+[22:15:58] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:16:08] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 350 times.
+
+[22:16:43] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:16:58] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 355 times.
+
+[22:17:28] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:17:48] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 360 times.
+
+[22:18:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:18:38] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 365 times.
+
+[22:18:58] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:19:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Elpeep94 has made the advancement [Best Friends Forever]
+[22:19:28] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 370 times.
+
+[22:19:43] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:20:18] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 375 times.
+
+[22:20:28] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:21:08] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 380 times.
+
+[22:21:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
