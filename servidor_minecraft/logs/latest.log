@@ -656,3 +656,6 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 [00:52:06] [Server thread/INFO] [journeymap]: Sending log in packet.
 [00:55:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <MASBIENCOM> que tal va quedando
 [00:55:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Elpeep94> nice
+[00:59:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke has made the advancement [Sweet dreams]
+[00:59:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <MASBIENCOM> luis duerme
+[01:04:14] [Server thread/INFO] [mca]: Villager death: Carlton. Caused by: Claude. UUID: a7bfa0d9-1494-4a5c-8fff-a8a24b4fb7eb
