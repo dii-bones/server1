@@ -5809,3 +5809,44 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 [21:40:43] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [21:41:08] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 140 times.
 
+[21:41:28] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:41:34] [Server thread/INFO] [mca]: Villager death: Jefferson. Caused by: Arrow. UUID: 94b37ec5-7bf6-4e02-80de-03e86dc71fb7
+[21:41:58] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 145 times.
+
+[21:42:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:42:48] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 150 times.
+
+[21:42:58] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:43:36] [Server thread/INFO] [mca]: Villager death: Xochitl. Caused by: Elpeep94. UUID: dcc31d91-f013-4136-b0cc-a10bad46ed38
+[21:43:38] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 155 times.
+
+[21:43:43] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:44:28] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 160 times.
+
+[21:44:28] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:45:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:45:18] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 165 times.
+
+[21:45:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Elpeep94 has made the advancement [Hot Stuff]
+[21:45:58] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:46:08] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 170 times.
+
+[21:46:43] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:46:58] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 175 times.
+
+[21:47:28] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:47:48] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 180 times.
+
+[21:48:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:48:38] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 185 times.
+
+[21:48:58] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:49:28] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 190 times.
+
+[21:49:43] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:50:18] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 195 times.
+
+[21:50:28] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[21:51:08] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 200 times.
+
+[21:51:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world

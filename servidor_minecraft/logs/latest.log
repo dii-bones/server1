@@ -248,3 +248,6 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 [21:40:40] [Server thread/INFO] [mca]: Villager death: Kristie. Caused by: lava. UUID: 2be5bcf6-4d14-4147-9b54-ae648d0956ac
 [21:40:41] [Server thread/INFO] [mca]: Villager death: Melvin. Caused by: lava. UUID: 9336bfc4-ce7f-475f-88d4-6ae647dc61a8
 [21:40:42] [Server thread/INFO] [mca]: Villager death: Jung. Caused by: Elpeep94. UUID: 54f457fe-82c5-47a7-97e5-c680a79f6f27
+[21:41:34] [Server thread/INFO] [mca]: Villager death: Jefferson. Caused by: Arrow. UUID: 94b37ec5-7bf6-4e02-80de-03e86dc71fb7
+[21:43:36] [Server thread/INFO] [mca]: Villager death: Xochitl. Caused by: Elpeep94. UUID: dcc31d91-f013-4136-b0cc-a10bad46ed38
+[21:45:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Elpeep94 has made the advancement [Hot Stuff]
