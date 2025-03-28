@@ -1,87 +1,87 @@
-[16:02:09] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[16:02:09] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[16:02:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[16:02:09] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[16:02:09] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_442, running on Linux:amd64:6.8.0-1021-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[16:02:09] [main/INFO] [FML]: Searching /workspaces/server1/servidor_minecraft/./mods for mods
-[16:02:09] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Forgelin-1.8.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[16:02:09] [main/WARN] [FML]: The coremod net.shadowfacts.forgelin.preloader.ForgelinPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[16:02:09] [main/WARN] [FML]: The coremod ForgelinPlugin (net.shadowfacts.forgelin.preloader.ForgelinPlugin) is not signed!
-[16:02:09] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in future-mc-0.2.11.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[16:02:09] [main/WARN] [FML]: The coremod FutureMC (thedarkcolour.futuremc.asm.CoreLoader) is not signed!
-[16:02:09] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_G5.jar
-[16:02:09] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:02:09] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
-[16:02:09] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[16:02:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:02:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:02:09] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
-[16:02:09] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
-[16:02:09] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: Forge server detected, skipping class transformer
-[16:02:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:02:10] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[16:02:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:02:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:02:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[16:02:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:02:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[16:02:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[16:02:11] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
-[16:02:11] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[16:02:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[16:02:14] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[16:02:14] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[16:02:14] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[16:02:14] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[16:02:15] [Server thread/INFO] [FML]: Searching /workspaces/server1/servidor_minecraft/./mods for mods
-[16:02:16] [Server thread/INFO] [FML]: Forge Mod Loader has identified 10 mods to load
-[16:02:16] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[16:02:16] [Server thread/WARN] [FML]: Missing English translation for aiimprovements: assets/aiimprovements/lang/en_us.lang
-[16:02:16] [Server thread/WARN] [FML]: Missing English translation for forgelin: assets/forgelin/lang/en_us.lang
-[16:02:16] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aiimprovements, forgelin, futuremc, jei, journeymap, mca] at CLIENT
-[16:02:16] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aiimprovements, forgelin, futuremc, jei, journeymap, mca] at SERVER
-[16:02:17] [Server thread/INFO] [FutureMC]: Ido is gone...
-[16:02:17] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[16:02:17] [Server thread/INFO] [FML]: Found 1175 ObjectHolder annotations
-[16:02:17] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[16:02:17] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[16:02:17] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[16:02:17] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[16:02:18] [Server thread/ERROR] [mca]: Failed to GET from: https://minecraftcomesalive.com/api/latest
-[16:02:18] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[16:02:18] [Server thread/ERROR] [mca]: Failed to GET from: https://minecraftcomesalive.com/api/supporters
-[16:02:18] [Server thread/INFO] [mca]: Loaded 1 supporters.
-[16:02:18] [Server thread/INFO] [FML]: Applying holder lookups
-[16:02:18] [Server thread/INFO] [FML]: Holder lookups applied
-[16:02:18] [Server thread/INFO] [FML]: Applying holder lookups
-[16:02:18] [Server thread/INFO] [FML]: Holder lookups applied
-[16:02:18] [Server thread/INFO] [FML]: Applying holder lookups
-[16:02:18] [Server thread/INFO] [FML]: Holder lookups applied
-[16:02:18] [Server thread/INFO] [FML]: Applying holder lookups
-[16:02:18] [Server thread/INFO] [FML]: Holder lookups applied
-[16:02:18] [Server thread/INFO] [FML]: Injecting itemstacks
-[16:02:18] [Server thread/INFO] [FML]: Itemstack injection complete
-[16:02:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[16:02:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[16:02:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[16:02:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[16:02:19] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[16:02:19] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:02:19] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[16:02:19] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:02:19] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:02:19] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nether_brick_fence`, expected `futuremc`. This could be a intended override, but in most cases indicates a broken mod.
-[16:02:19] [Server thread/INFO] [FML]: Applying holder lookups
-[16:02:19] [Server thread/INFO] [FML]: Holder lookups applied
-[16:02:19] [Server thread/INFO] [FML]: Injecting itemstacks
-[16:02:19] [Server thread/INFO] [FML]: Itemstack injection complete
-[16:02:19] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 10 mods
-[16:02:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[16:02:19] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[16:02:19] [Server thread/INFO] [FML]: Applying holder lookups
-[16:02:19] [Server thread/INFO] [FML]: Holder lookups applied
-[16:02:19] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@4a529da)
-[16:02:19] [Server thread/ERROR] [net.minecraft.advancements.AdvancementManager]: Parsing error loading built-in advancement minecraft:recipes/redstone/trapdoor
+[21:11:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:11:11] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:11:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:11:12] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[21:11:12] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_442, running on Linux:amd64:6.8.0-1021-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[21:11:12] [main/INFO] [FML]: Searching /workspaces/server1/servidor_minecraft/./mods for mods
+[21:11:12] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Forgelin-1.8.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:11:12] [main/WARN] [FML]: The coremod net.shadowfacts.forgelin.preloader.ForgelinPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:11:12] [main/WARN] [FML]: The coremod ForgelinPlugin (net.shadowfacts.forgelin.preloader.ForgelinPlugin) is not signed!
+[21:11:12] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in future-mc-0.2.11.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:11:12] [main/WARN] [FML]: The coremod FutureMC (thedarkcolour.futuremc.asm.CoreLoader) is not signed!
+[21:11:12] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_G5.jar
+[21:11:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:11:12] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[21:11:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:11:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:11:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:11:12] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[21:11:12] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[21:11:12] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: Forge server detected, skipping class transformer
+[21:11:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:11:14] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[21:11:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:11:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:11:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:11:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:11:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:11:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:11:15] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[21:11:15] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[21:11:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[21:11:19] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[21:11:19] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[21:11:19] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[21:11:19] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[21:11:19] [Server thread/INFO] [FML]: Searching /workspaces/server1/servidor_minecraft/./mods for mods
+[21:11:21] [Server thread/INFO] [FML]: Forge Mod Loader has identified 10 mods to load
+[21:11:21] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[21:11:21] [Server thread/WARN] [FML]: Missing English translation for aiimprovements: assets/aiimprovements/lang/en_us.lang
+[21:11:21] [Server thread/WARN] [FML]: Missing English translation for forgelin: assets/forgelin/lang/en_us.lang
+[21:11:21] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aiimprovements, forgelin, futuremc, jei, journeymap, mca] at CLIENT
+[21:11:21] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aiimprovements, forgelin, futuremc, jei, journeymap, mca] at SERVER
+[21:11:23] [Server thread/INFO] [FutureMC]: Ido is gone...
+[21:11:23] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[21:11:23] [Server thread/INFO] [FML]: Found 1175 ObjectHolder annotations
+[21:11:23] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[21:11:23] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[21:11:23] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[21:11:23] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[21:11:24] [Server thread/ERROR] [mca]: Failed to GET from: https://minecraftcomesalive.com/api/latest
+[21:11:24] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[21:11:24] [Server thread/ERROR] [mca]: Failed to GET from: https://minecraftcomesalive.com/api/supporters
+[21:11:24] [Server thread/INFO] [mca]: Loaded 1 supporters.
+[21:11:24] [Server thread/INFO] [FML]: Applying holder lookups
+[21:11:24] [Server thread/INFO] [FML]: Holder lookups applied
+[21:11:25] [Server thread/INFO] [FML]: Applying holder lookups
+[21:11:25] [Server thread/INFO] [FML]: Holder lookups applied
+[21:11:25] [Server thread/INFO] [FML]: Applying holder lookups
+[21:11:25] [Server thread/INFO] [FML]: Holder lookups applied
+[21:11:25] [Server thread/INFO] [FML]: Applying holder lookups
+[21:11:25] [Server thread/INFO] [FML]: Holder lookups applied
+[21:11:25] [Server thread/INFO] [FML]: Injecting itemstacks
+[21:11:25] [Server thread/INFO] [FML]: Itemstack injection complete
+[21:11:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[21:11:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[21:11:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[21:11:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[21:11:25] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[21:11:25] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:11:25] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[21:11:25] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:11:25] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:11:25] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nether_brick_fence`, expected `futuremc`. This could be a intended override, but in most cases indicates a broken mod.
+[21:11:25] [Server thread/INFO] [FML]: Applying holder lookups
+[21:11:25] [Server thread/INFO] [FML]: Holder lookups applied
+[21:11:25] [Server thread/INFO] [FML]: Injecting itemstacks
+[21:11:25] [Server thread/INFO] [FML]: Itemstack injection complete
+[21:11:25] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 10 mods
+[21:11:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[21:11:25] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[21:11:26] [Server thread/INFO] [FML]: Applying holder lookups
+[21:11:26] [Server thread/INFO] [FML]: Holder lookups applied
+[21:11:26] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@78cb730f)
+[21:11:26] [Server thread/ERROR] [net.minecraft.advancements.AdvancementManager]: Parsing error loading built-in advancement minecraft:recipes/redstone/trapdoor
 com.google.gson.JsonSyntaxException: Unknown recipe 'minecraft:trapdoor'
 	at net.minecraft.advancements.AdvancementRewards$Deserializer.deserialize(AdvancementRewards.java:171) ~[l$a.class:?]
 	at net.minecraft.advancements.AdvancementRewards$Deserializer.deserialize(AdvancementRewards.java:147) ~[l$a.class:?]
@@ -105,21 +105,23 @@ com.google.gson.JsonSyntaxException: Unknown recipe 'minecraft:trapdoor'
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
-[16:02:19] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 487 advancements
-[16:02:19] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@4a529da)
-[16:02:20] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@4a529da)
-[16:02:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[16:02:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (1.655s)! For help, type "help" or "?"
-[16:02:21] [Server thread/INFO] [FML]: Unloading dimension -1
-[16:02:21] [Server thread/INFO] [FML]: Unloading dimension 1
-[16:05:31] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
-[16:05:31] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,futuremc@0.2.6,FML@8.0.99.99,forgelin@1.8.4,forge@14.23.5.2860,mca@6.1.0,mcp@9.42,aiimprovements@0.0.1.3,rpghud@3.8.1,journeymap@1.12.2-5.5.3,jei@4.16.1.301
-[16:05:31] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
-[16:05:31] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[16:05:31] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: bones_v[/127.227.103.88:47195] logged in with entity id 87 at (251.71090489317157, 26.0, -98.45243677176215)
-[16:05:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: bones_v joined the game
-[16:05:31] [Server thread/INFO] [journeymap]: bones_v joining dimension 0
-[16:05:31] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+[21:11:26] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 487 advancements
+[21:11:26] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@78cb730f)
+[21:11:26] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@78cb730f)
+[21:11:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[21:11:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 43%
+[21:11:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (2.383s)! For help, type "help" or "?"
+[21:11:28] [Server thread/INFO] [FML]: Unloading dimension -1
+[21:11:28] [Server thread/INFO] [FML]: Unloading dimension 1
+[21:12:40] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[21:12:40] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 10 mods : minecraft@1.12.2,futuremc@0.2.6,FML@8.0.99.99,forgelin@1.8.4,forge@14.23.5.2860,mca@6.1.0,mcp@9.42,aiimprovements@0.0.1.3,journeymap@1.12.2-5.5.3,jei@4.16.1.301
+[21:12:40] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
+[21:12:41] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[21:12:41] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@78cb730f)
+[21:12:41] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Elpeep94[/127.193.232.186:48691] logged in with entity id 82 at (287.5343907141775, 13.0, -138.30000001192093)
+[21:12:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Elpeep94 joined the game
+[21:12:41] [Server thread/INFO] [journeymap]: Elpeep94 joining dimension -1
+[21:12:41] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
 io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
 	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
@@ -155,6 +157,89 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
 	... 28 more
-[16:05:31] [Server thread/INFO] [journeymap]: Sending log in packet.
-[16:15:17] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: bones_v lost connection: Timed out
-[16:15:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: bones_v left the game
+[21:12:41] [Server thread/INFO] [journeymap]: Sending log in packet.
+[21:17:55] [Server thread/INFO] [journeymap]: Elpeep94 joining dimension 0
+[21:17:55] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_43_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
+	at net.minecraft.world.World.func_72838_d(World.java:1209) [amu.class:?]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:1058) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.transferEntityToWorld(PlayerList.java:722) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.transferPlayerToDimension(PlayerList.java:624) [pl.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.changeDimension(EntityPlayerMP.java:695) [oq.class:?]
+	at net.minecraft.entity.Entity.func_184204_a(Entity.java:2543) [vg.class:?]
+	at net.minecraft.entity.Entity.func_70030_z(Entity.java:442) [vg.class:?]
+	at net.minecraft.entity.EntityLivingBase.func_70030_z(EntityLivingBase.java:226) [vp.class:?]
+	at net.minecraft.entity.Entity.func_70071_h_(Entity.java:389) [vg.class:?]
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2096) [vp.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_70071_h_(EntityPlayer.java:234) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.func_71127_g(EntityPlayerMP.java:382) [oq.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_73660_a(NetHandlerPlayServer.java:173) [pa.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 35 more
+[21:17:56] [Server thread/INFO] [FML]: Unloading dimension -1
+[21:17:56] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Elpeep94 moved too quickly! 1384.110147648269,-12.0,-393.75699626316714
+[21:19:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Elpeep94 was slain by Enderman
+[21:19:23] [Server thread/INFO] [journeymap]: Elpeep94 joining dimension 0
+[21:19:23] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_43_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
+	at net.minecraft.world.World.func_72838_d(World.java:1209) [amu.class:?]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:1058) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.func_72368_a(PlayerList.java:585) [pl.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147342_a(NetHandlerPlayServer.java:1121) [pa.class:?]
+	at net.minecraft.network.play.client.CPacketClientStatus.func_148833_a(SourceFile:31) [lb.class:?]
+	at net.minecraft.network.play.client.CPacketClientStatus.func_148833_a(SourceFile:8) [lb.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) [hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_442]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_442]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 29 more
