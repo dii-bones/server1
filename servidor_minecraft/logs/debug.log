@@ -6230,3 +6230,363 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 [00:37:01] [Server thread/INFO] [FML]: Unloading dimension -1
 [00:37:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [00:38:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:39:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:39:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:40:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:40:32] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Daisuke lost connection: Disconnected
+[00:40:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke left the game
+[00:41:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:42:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:42:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:43:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:44:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:45:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:45:23] [Server thread/TRACE] [FML]: Handshake channel activating
+[00:45:23] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[00:45:23] [Server thread/DEBUG] [FML]:   Next: HELLO
+[00:45:23] [Netty Epoll Server IO #4/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[00:45:23] [Netty Epoll Server IO #4/INFO] [FML]: Client protocol version 2
+[00:45:23] [Netty Epoll Server IO #4/DEBUG] [FML]: FMLHandshakeServerState: $ModList:11 mods->FMLHandshakeServerState$2:HELLO
+[00:45:23] [Netty Epoll Server IO #4/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,futuremc@0.2.6,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forgelin@1.8.4,forge@14.23.5.2860,mca@6.1.0,mcp@9.42,aiimprovements@0.0.1.3,journeymap@1.12.2-5.5.3,jei@4.16.1.301
+[00:45:23] [Netty Epoll Server IO #4/INFO] [journeymap]: CLIENT
+[00:45:23] [Netty Epoll Server IO #4/DEBUG] [FML]:   Next: WAITINGCACK
+[00:45:23] [Netty Epoll Server IO #4/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[00:45:23] [Netty Epoll Server IO #4/DEBUG] [FML]:   Next: COMPLETE
+[00:45:23] [Netty Epoll Server IO #4/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[00:45:23] [Netty Epoll Server IO #4/DEBUG] [FML]:   Next: DONE
+[00:45:23] [Netty Epoll Server IO #4/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[00:45:23] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:45:23] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Daisuke[/127.227.103.88:36381] logged in with entity id 84919 at (437.3000000119209, 64.0, 331.45309008696984)
+[00:45:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke joined the game
+[00:45:23] [Server thread/INFO] [journeymap]: Daisuke joining dimension 0
+[00:45:23] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_43_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
+	at net.minecraft.world.World.func_72838_d(World.java:1209) [amu.class:?]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:1058) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:377) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:166) [pl.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 28 more
+[00:45:23] [Server thread/INFO] [journeymap]: Sending log in packet.
+[00:45:23] [Netty Epoll Server IO #4/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[00:45:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:46:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:46:46] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: MASBIENCOM lost connection: Disconnected
+[00:46:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: MASBIENCOM left the game
+[00:47:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:48:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:48:14] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Daisuke lost connection: Disconnected
+[00:48:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke left the game
+[00:48:17] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@73125ca0)
+[00:48:18] [Server thread/INFO] [journeymap]: Elpeep94 joining dimension -1
+[00:48:18] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_43_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
+	at net.minecraft.world.World.func_72838_d(World.java:1209) [amu.class:?]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:1058) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.transferEntityToWorld(PlayerList.java:722) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.transferPlayerToDimension(PlayerList.java:624) [pl.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.changeDimension(EntityPlayerMP.java:695) [oq.class:?]
+	at net.minecraft.entity.Entity.func_184204_a(Entity.java:2543) [vg.class:?]
+	at net.minecraft.entity.Entity.func_70030_z(Entity.java:442) [vg.class:?]
+	at net.minecraft.entity.EntityLivingBase.func_70030_z(EntityLivingBase.java:226) [vp.class:?]
+	at net.minecraft.entity.Entity.func_70071_h_(Entity.java:389) [vg.class:?]
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2096) [vp.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_70071_h_(EntityPlayer.java:234) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.func_71127_g(EntityPlayerMP.java:382) [oq.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_73660_a(NetHandlerPlayServer.java:173) [pa.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 35 more
+[00:48:18] [Server thread/TRACE] [FML]: Handshake channel activating
+[00:48:18] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[00:48:18] [Server thread/DEBUG] [FML]:   Next: HELLO
+[00:48:18] [Netty Epoll Server IO #7/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[00:48:18] [Netty Epoll Server IO #7/INFO] [FML]: Client protocol version 2
+[00:48:18] [Netty Epoll Server IO #7/DEBUG] [FML]: FMLHandshakeServerState: $ModList:11 mods->FMLHandshakeServerState$2:HELLO
+[00:48:18] [Netty Epoll Server IO #7/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,futuremc@0.2.6,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forgelin@1.8.4,forge@14.23.5.2860,mca@6.1.0,mcp@9.42,aiimprovements@0.0.1.3,journeymap@1.12.2-5.5.3,jei@4.16.1.301
+[00:48:18] [Netty Epoll Server IO #7/INFO] [journeymap]: CLIENT
+[00:48:18] [Netty Epoll Server IO #7/DEBUG] [FML]:   Next: WAITINGCACK
+[00:48:18] [Netty Epoll Server IO #7/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[00:48:18] [Netty Epoll Server IO #7/DEBUG] [FML]:   Next: COMPLETE
+[00:48:19] [Netty Epoll Server IO #7/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[00:48:19] [Netty Epoll Server IO #7/DEBUG] [FML]:   Next: DONE
+[00:48:19] [Netty Epoll Server IO #7/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[00:48:19] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:48:19] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Daisuke[/127.227.103.88:53601] logged in with entity id 92011 at (703.3481021593407, 70.0, 73.42947699403028)
+[00:48:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke joined the game
+[00:48:19] [Server thread/INFO] [journeymap]: Daisuke joining dimension 0
+[00:48:19] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_43_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
+	at net.minecraft.world.World.func_72838_d(World.java:1209) [amu.class:?]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:1058) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:377) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:166) [pl.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 28 more
+[00:48:19] [Server thread/INFO] [journeymap]: Sending log in packet.
+[00:48:19] [Netty Epoll Server IO #7/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[00:48:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:49:16] [Server thread/INFO] [journeymap]: Elpeep94 joining dimension 0
+[00:49:16] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_43_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
+	at net.minecraft.world.World.func_72838_d(World.java:1209) [amu.class:?]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:1058) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.transferEntityToWorld(PlayerList.java:722) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.transferPlayerToDimension(PlayerList.java:624) [pl.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.changeDimension(EntityPlayerMP.java:695) [oq.class:?]
+	at net.minecraft.entity.Entity.func_184204_a(Entity.java:2543) [vg.class:?]
+	at net.minecraft.entity.Entity.func_70030_z(Entity.java:442) [vg.class:?]
+	at net.minecraft.entity.EntityLivingBase.func_70030_z(EntityLivingBase.java:226) [vp.class:?]
+	at net.minecraft.entity.Entity.func_70071_h_(Entity.java:389) [vg.class:?]
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2096) [vp.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_70071_h_(EntityPlayer.java:234) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.func_71127_g(EntityPlayerMP.java:382) [oq.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_73660_a(NetHandlerPlayServer.java:173) [pa.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 35 more
+[00:49:17] [Server thread/DEBUG] [FML]: Queueing dimension -1 to unload
+[00:49:17] [Server thread/INFO] [FML]: Unloading dimension -1
+[00:49:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:49:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Elpeep94> luiss
+[00:49:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Daisuke> q
+[00:49:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Elpeep94> tienes cosas de hierro?
+[00:50:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Daisuke> loco estoy a 7000 bloques de distancia del spawn
+[00:50:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Daisuke> si tuviera cosas de hierro, igual no te las podria dar xd
+[00:50:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:50:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Elpeep94> era para darte yo a ti
+[00:50:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Daisuke> igual w
+[00:50:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Daisuke> estoy muy lejos
+[00:51:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:51:42] [Server thread/TRACE] [FML]: Handshake channel activating
+[00:51:42] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[00:51:42] [Server thread/DEBUG] [FML]:   Next: HELLO
+[00:51:42] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[00:51:42] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
+[00:51:42] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $ModList:11 mods->FMLHandshakeServerState$2:HELLO
+[00:51:42] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,futuremc@0.2.6,exe@1.0,FML@8.0.99.99,forgelin@1.8.4,forge@14.23.5.2859,mca@6.1.0,mcp@9.42,aiimprovements@0.0.1.3,journeymap@1.12.2-5.5.3,jei@4.16.1.301
+[00:51:42] [Netty Epoll Server IO #1/INFO] [journeymap]: CLIENT
+[00:51:42] [Netty Epoll Server IO #1/DEBUG] [FML]:   Next: WAITINGCACK
+[00:51:43] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[00:51:43] [Netty Epoll Server IO #1/DEBUG] [FML]:   Next: COMPLETE
+[00:51:43] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[00:51:43] [Netty Epoll Server IO #1/DEBUG] [FML]:   Next: DONE
+[00:51:43] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[00:51:43] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:51:43] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: MASBIENCOM[/127.250.159.47:44565] logged in with entity id 100467 at (272.1914721890686, 62.0, -104.05213667661504)
+[00:51:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: MASBIENCOM joined the game
+[00:51:43] [Server thread/INFO] [journeymap]: MASBIENCOM joining dimension 0
+[00:51:43] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_43_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
+	at net.minecraft.world.World.func_72838_d(World.java:1209) [amu.class:?]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:1058) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:377) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:166) [pl.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 28 more
+[00:51:43] [Server thread/INFO] [journeymap]: Sending log in packet.
+[00:51:43] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[00:51:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:51:58] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: MASBIENCOM lost connection: Timed out
+[00:51:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: MASBIENCOM left the game
+[00:52:05] [Server thread/TRACE] [FML]: Handshake channel activating
+[00:52:05] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[00:52:05] [Server thread/DEBUG] [FML]:   Next: HELLO
+[00:52:06] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[00:52:06] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[00:52:06] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $ModList:11 mods->FMLHandshakeServerState$2:HELLO
+[00:52:06] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,futuremc@0.2.6,exe@1.0,FML@8.0.99.99,forgelin@1.8.4,forge@14.23.5.2859,mca@6.1.0,mcp@9.42,aiimprovements@0.0.1.3,journeymap@1.12.2-5.5.3,jei@4.16.1.301
+[00:52:06] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
+[00:52:06] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: WAITINGCACK
+[00:52:06] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[00:52:06] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: COMPLETE
+[00:52:06] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[00:52:06] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: DONE
+[00:52:06] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[00:52:06] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:52:06] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: MASBIENCOM[/127.250.159.47:41609] logged in with entity id 101963 at (272.1914721890686, 62.0, -104.05213667661504)
+[00:52:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: MASBIENCOM joined the game
+[00:52:06] [Server thread/INFO] [journeymap]: MASBIENCOM joining dimension 0
+[00:52:06] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_43_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
+	at net.minecraft.world.World.func_72838_d(World.java:1209) [amu.class:?]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:1058) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:377) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:166) [pl.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 28 more
+[00:52:06] [Server thread/INFO] [journeymap]: Sending log in packet.
+[00:52:07] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[00:52:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:53:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:54:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:54:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:55:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <MASBIENCOM> que tal va quedando
+[00:55:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Elpeep94> nice
+[00:55:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:56:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:57:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:57:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:58:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
