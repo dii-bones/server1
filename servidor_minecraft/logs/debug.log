@@ -5640,3 +5640,18 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 [16:10:36] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [16:11:21] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [16:12:06] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:12:51] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:13:36] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:14:21] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:15:06] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:15:17] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: bones_v lost connection: Timed out
+[16:15:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: bones_v left the game
+[16:15:51] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:16:36] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:17:21] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:18:06] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:18:51] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:19:36] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:20:21] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:21:06] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:21:51] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world

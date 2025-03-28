@@ -156,3 +156,5 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
 	... 28 more
 [16:05:31] [Server thread/INFO] [journeymap]: Sending log in packet.
+[16:15:17] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: bones_v lost connection: Timed out
+[16:15:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: bones_v left the game
