@@ -35,6 +35,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-03-28 01:55:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal": {
     "criteria": {
       "has_lapis": "2025-03-27 17:37:52 +0000"
@@ -50,6 +56,12 @@
   "minecraft:recipes/redstone/spruce_door": {
     "criteria": {
       "has_planks": "2025-03-27 01:05:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_the_recipe": "2025-03-28 01:51:17 +0000"
     },
     "done": true
   },
@@ -122,6 +134,12 @@
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2025-03-27 17:56:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-03-28 02:08:58 +0000"
     },
     "done": true
   },
@@ -269,6 +287,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-03-28 01:46:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-03-27 18:10:11 +0000"
@@ -284,6 +308,12 @@
   "minecraft:recipes/building_blocks/gray_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-03-27 18:10:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-03-28 01:52:28 +0000"
     },
     "done": true
   },
@@ -303,6 +333,7 @@
     "criteria": {
       "cooked_porkchop": "2025-03-27 17:23:43 +0000",
       "beef": "2025-03-27 18:14:55 +0000",
+      "bread": "2025-03-28 01:55:46 +0000",
       "rotten_flesh": "2025-03-27 17:40:26 +0000"
     },
     "done": false
@@ -439,6 +470,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_at_least_9_wheat": "2025-03-28 01:51:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2025-03-27 18:14:33 +0000"
@@ -514,6 +551,12 @@
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2025-03-27 17:16:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar": {
+    "criteria": {
+      "has_reeds": "2025-03-28 01:55:08 +0000"
     },
     "done": true
   },
@@ -791,6 +834,7 @@
       "zombie_villager": "2025-03-27 17:23:24 +0000",
       "skeleton": "2025-03-27 17:34:05 +0000",
       "zombie": "2025-03-27 17:23:18 +0000",
+      "witch": "2025-03-28 01:57:56 +0000",
       "spider": "2025-03-27 17:43:45 +0000",
       "creeper": "2025-03-27 17:23:13 +0000"
     },
@@ -850,6 +894,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal_from_block": {
+    "criteria": {
+      "has_the_recipe": "2025-03-28 02:05:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2025-03-27 17:34:36 +0000"
@@ -895,6 +945,12 @@
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-03-27 18:10:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_at_least_9_bonemeal": "2025-03-28 02:05:45 +0000"
     },
     "done": true
   }

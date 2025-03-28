@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-03-28 02:07:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2025-03-27 03:13:27 +0000"
@@ -92,6 +98,18 @@
   "minecraft:recipes/redstone/redstone": {
     "criteria": {
       "has_the_recipe": "2025-03-27 03:36:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-03-28 02:01:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-03-28 02:27:51 +0000"
     },
     "done": true
   },
@@ -176,6 +194,12 @@
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2025-03-27 03:12:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2025-03-28 02:11:28 +0000"
     },
     "done": true
   },
@@ -267,6 +291,12 @@
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2025-03-27 03:14:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-03-28 02:06:33 +0000"
     },
     "done": true
   },
@@ -372,6 +402,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-03-28 02:07:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2025-03-27 03:13:27 +0000"
@@ -438,6 +474,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-03-28 02:07:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2025-03-27 03:14:19 +0000"
@@ -462,6 +504,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-03-28 02:09:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2025-03-27 03:30:52 +0000"
@@ -471,6 +519,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "beaches": "2025-03-27 03:10:49 +0000",
+      "plains": "2025-03-28 02:10:10 +0000",
       "taiga": "2025-03-27 03:11:34 +0000",
       "taiga_hills": "2025-03-27 03:18:05 +0000",
       "ocean": "2025-03-27 03:27:35 +0000",
@@ -598,6 +647,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-03-28 02:27:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/boat": {
     "criteria": {
       "entered_water": "2025-03-27 03:15:14 +0000"
@@ -670,10 +725,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2025-03-28 02:06:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "wither_skeleton": "2025-03-28 02:05:54 +0000",
       "zombie_villager": "2025-03-27 03:34:59 +0000",
       "skeleton": "2025-03-27 03:19:06 +0000",
+      "blaze": "2025-03-28 02:05:14 +0000",
       "zombie": "2025-03-27 03:35:13 +0000",
       "enderman": "2025-03-27 03:22:43 +0000"
     },
@@ -682,6 +745,12 @@
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2025-03-27 03:29:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-03-28 02:09:47 +0000"
     },
     "done": true
   },
@@ -784,6 +853,12 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2025-03-27 03:14:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-03-28 02:09:47 +0000"
     },
     "done": true
   },
