@@ -35,9 +35,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-03-29 02:54:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_door": {
     "criteria": {
       "has_planks": "2025-03-27 01:07:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_the_recipe": "2025-03-29 02:48:29 +0000"
     },
     "done": true
   },
@@ -257,6 +269,7 @@
       "cooked_mutton": "2025-03-27 02:53:32 +0000",
       "cooked_beef": "2025-03-27 03:02:00 +0000",
       "porkchop": "2025-03-27 18:32:48 +0000",
+      "potato": "2025-03-29 02:55:10 +0000",
       "cooked_cod": "2025-03-29 01:18:38 +0000",
       "bread": "2025-03-27 18:47:13 +0000",
       "rotten_flesh": "2025-03-27 02:42:25 +0000",
@@ -339,6 +352,12 @@
   "minecraft:recipes/misc/lime_dye": {
     "criteria": {
       "has_bonemeal": "2025-03-27 17:09:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_at_least_9_wheat": "2025-03-29 02:48:29 +0000"
     },
     "done": true
   },
@@ -660,7 +679,8 @@
       "zombie_villager": "2025-03-27 17:05:26 +0000",
       "skeleton": "2025-03-27 02:32:37 +0000",
       "zombie": "2025-03-27 02:40:20 +0000",
-      "spider": "2025-03-27 02:31:31 +0000"
+      "spider": "2025-03-27 02:31:31 +0000",
+      "creeper": "2025-03-29 03:49:36 +0000"
     },
     "done": false
   },
@@ -934,6 +954,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-03-29 02:54:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
       "has_gold_ingot": "2025-03-27 18:54:16 +0000"
@@ -1122,6 +1148,12 @@
   "minecraft:recipes/decorations/purple_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-03-27 02:51:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_the_recipe": "2025-03-29 02:54:22 +0000"
     },
     "done": true
   },
