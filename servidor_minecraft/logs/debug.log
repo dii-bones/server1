@@ -6868,3 +6868,136 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 [23:51:58] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [23:52:08] [Server thread/DEBUG] [FML]: The world 686b4b76 (world) may have leaked: seen 310 times.
 
+[23:52:38] [Server thread/DEBUG] [FML]: The world 49cea52f (world) may have leaked: seen 290 times.
+
+[23:52:43] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:52:48] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 930 times.
+
+[23:52:58] [Server thread/DEBUG] [FML]: The world 686b4b76 (world) may have leaked: seen 315 times.
+
+[23:53:28] [Server thread/DEBUG] [FML]: The world 49cea52f (world) may have leaked: seen 295 times.
+
+[23:53:28] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:53:38] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 935 times.
+
+[23:53:48] [Server thread/DEBUG] [FML]: The world 686b4b76 (world) may have leaked: seen 320 times.
+
+[23:54:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:54:18] [Server thread/DEBUG] [FML]: The world 49cea52f (world) may have leaked: seen 300 times.
+
+[23:54:28] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 940 times.
+
+[23:54:38] [Server thread/DEBUG] [FML]: The world 686b4b76 (world) may have leaked: seen 325 times.
+
+[23:54:58] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:55:08] [Server thread/DEBUG] [FML]: The world 49cea52f (world) may have leaked: seen 305 times.
+
+[23:55:18] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 945 times.
+
+[23:55:28] [Server thread/DEBUG] [FML]: The world 686b4b76 (world) may have leaked: seen 330 times.
+
+[23:55:43] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:55:58] [Server thread/DEBUG] [FML]: The world 49cea52f (world) may have leaked: seen 310 times.
+
+[23:56:08] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 950 times.
+
+[23:56:18] [Server thread/DEBUG] [FML]: The world 686b4b76 (world) may have leaked: seen 335 times.
+
+[23:56:28] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:56:48] [Server thread/DEBUG] [FML]: The world 49cea52f (world) may have leaked: seen 315 times.
+
+[23:56:58] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 955 times.
+
+[23:57:08] [Server thread/DEBUG] [FML]: The world 686b4b76 (world) may have leaked: seen 340 times.
+
+[23:57:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:57:38] [Server thread/DEBUG] [FML]: The world 49cea52f (world) may have leaked: seen 320 times.
+
+[23:57:48] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 960 times.
+
+[23:57:58] [Server thread/DEBUG] [FML]: The world 686b4b76 (world) may have leaked: seen 345 times.
+
+[23:57:58] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:58:28] [Server thread/DEBUG] [FML]: The world 49cea52f (world) may have leaked: seen 325 times.
+
+[23:58:38] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 965 times.
+
+[23:58:43] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:58:48] [Server thread/DEBUG] [FML]: The world 686b4b76 (world) may have leaked: seen 350 times.
+
+[23:59:18] [Server thread/DEBUG] [FML]: The world 49cea52f (world) may have leaked: seen 330 times.
+
+[23:59:28] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 970 times.
+
+[23:59:28] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[23:59:38] [Server thread/DEBUG] [FML]: The world 686b4b76 (world) may have leaked: seen 355 times.
+
+[00:00:08] [Server thread/DEBUG] [FML]: The world 49cea52f (world) may have leaked: seen 335 times.
+
+[00:00:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:00:18] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 975 times.
+
+[00:00:28] [Server thread/DEBUG] [FML]: The world 686b4b76 (world) may have leaked: seen 360 times.
+
+[00:00:58] [Server thread/DEBUG] [FML]: The world 49cea52f (world) may have leaked: seen 340 times.
+
+[00:00:58] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:01:08] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 980 times.
+
+[00:01:10] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@78cb730f)
+[00:01:11] [Server thread/INFO] [journeymap]: Elpeep94 joining dimension -1
+[00:01:11] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_43_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
+	at net.minecraft.world.World.func_72838_d(World.java:1209) [amu.class:?]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:1058) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.transferEntityToWorld(PlayerList.java:722) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.transferPlayerToDimension(PlayerList.java:624) [pl.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.changeDimension(EntityPlayerMP.java:695) [oq.class:?]
+	at net.minecraft.entity.Entity.func_184204_a(Entity.java:2543) [vg.class:?]
+	at net.minecraft.entity.Entity.func_70030_z(Entity.java:442) [vg.class:?]
+	at net.minecraft.entity.EntityLivingBase.func_70030_z(EntityLivingBase.java:226) [vp.class:?]
+	at net.minecraft.entity.Entity.func_70071_h_(Entity.java:389) [vg.class:?]
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2096) [vp.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_70071_h_(EntityPlayer.java:234) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.func_71127_g(EntityPlayerMP.java:382) [oq.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_73660_a(NetHandlerPlayServer.java:173) [pa.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 35 more
+[00:01:18] [Server thread/DEBUG] [FML]: The world 686b4b76 (world) may have leaked: seen 365 times.
+
+[00:01:43] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:01:48] [Server thread/DEBUG] [FML]: The world 49cea52f (world) may have leaked: seen 345 times.
+
+[00:01:58] [Server thread/DEBUG] [FML]: The world 3bfe2c40 (world) may have leaked: seen 985 times.
+
+[00:02:08] [Server thread/DEBUG] [FML]: The world 686b4b76 (world) may have leaked: seen 370 times.
+
+[00:02:28] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:02:38] [Server thread/DEBUG] [FML]: The world 49cea52f (world) may have leaked: seen 350 times.
+
