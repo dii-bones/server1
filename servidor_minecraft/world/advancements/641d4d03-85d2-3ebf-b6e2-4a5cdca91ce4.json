@@ -71,6 +71,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_brick": "2025-03-29 01:08:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2025-03-27 01:59:12 +0000"
@@ -238,6 +244,7 @@
       "cooked_porkchop": "2025-03-27 02:03:57 +0000",
       "cooked_mutton": "2025-03-27 02:24:46 +0000",
       "cooked_beef": "2025-03-27 03:24:28 +0000",
+      "golden_apple": "2025-03-29 01:02:53 +0000",
       "cooked_chicken": "2025-03-27 03:19:19 +0000"
     },
     "done": false
@@ -777,6 +784,12 @@
     },
     "done": true
   },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-03-29 01:08:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/leather": {
     "criteria": {
       "has_rabbit_hide": "2025-03-29 00:42:34 +0000"
@@ -1079,6 +1092,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_brick": "2025-03-29 01:08:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2025-03-27 01:55:49 +0000"
@@ -1154,6 +1173,12 @@
   "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
       "has_white_wool": "2025-03-27 02:05:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_brick": "2025-03-29 01:08:35 +0000"
     },
     "done": true
   },
