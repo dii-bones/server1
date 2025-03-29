@@ -1,87 +1,87 @@
-[14:34:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[14:34:40] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[14:34:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[14:34:40] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[14:34:40] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_442, running on Linux:amd64:6.8.0-1021-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[14:34:40] [main/INFO] [FML]: Searching /workspaces/server1/servidor_minecraft/./mods for mods
-[14:34:40] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Forgelin-1.8.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[14:34:40] [main/WARN] [FML]: The coremod net.shadowfacts.forgelin.preloader.ForgelinPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[14:34:40] [main/WARN] [FML]: The coremod ForgelinPlugin (net.shadowfacts.forgelin.preloader.ForgelinPlugin) is not signed!
-[14:34:40] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in future-mc-0.2.11.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[14:34:40] [main/WARN] [FML]: The coremod FutureMC (thedarkcolour.futuremc.asm.CoreLoader) is not signed!
-[14:34:40] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_G5.jar
-[14:34:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:34:40] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
-[14:34:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[14:34:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:34:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:34:40] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
-[14:34:40] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
-[14:34:40] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: Forge server detected, skipping class transformer
-[14:34:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:34:42] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[14:34:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:34:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:34:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[14:34:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:34:42] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[14:34:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[14:34:42] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
-[14:34:42] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[14:34:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[14:34:45] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[14:34:45] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[14:34:45] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[14:34:45] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[14:34:45] [Server thread/INFO] [FML]: Searching /workspaces/server1/servidor_minecraft/./mods for mods
-[14:34:46] [Server thread/INFO] [FML]: Forge Mod Loader has identified 10 mods to load
-[14:34:46] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[14:34:46] [Server thread/WARN] [FML]: Missing English translation for aiimprovements: assets/aiimprovements/lang/en_us.lang
-[14:34:46] [Server thread/WARN] [FML]: Missing English translation for forgelin: assets/forgelin/lang/en_us.lang
-[14:34:46] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aiimprovements, forgelin, futuremc, jei, journeymap, mca] at CLIENT
-[14:34:46] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aiimprovements, forgelin, futuremc, jei, journeymap, mca] at SERVER
-[14:34:47] [Server thread/INFO] [FutureMC]: Ido is gone...
-[14:34:47] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[14:34:47] [Server thread/INFO] [FML]: Found 1175 ObjectHolder annotations
-[14:34:47] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[14:34:47] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[14:34:48] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[14:34:48] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[14:34:48] [Server thread/ERROR] [mca]: Failed to GET from: https://minecraftcomesalive.com/api/latest
-[14:34:48] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[14:34:48] [Server thread/ERROR] [mca]: Failed to GET from: https://minecraftcomesalive.com/api/supporters
-[14:34:48] [Server thread/INFO] [mca]: Loaded 1 supporters.
-[14:34:48] [Server thread/INFO] [FML]: Applying holder lookups
-[14:34:48] [Server thread/INFO] [FML]: Holder lookups applied
-[14:34:48] [Server thread/INFO] [FML]: Applying holder lookups
-[14:34:48] [Server thread/INFO] [FML]: Holder lookups applied
-[14:34:48] [Server thread/INFO] [FML]: Applying holder lookups
-[14:34:48] [Server thread/INFO] [FML]: Holder lookups applied
-[14:34:48] [Server thread/INFO] [FML]: Applying holder lookups
-[14:34:48] [Server thread/INFO] [FML]: Holder lookups applied
-[14:34:48] [Server thread/INFO] [FML]: Injecting itemstacks
-[14:34:48] [Server thread/INFO] [FML]: Itemstack injection complete
-[14:34:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[14:34:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[14:34:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[14:34:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[14:34:48] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[14:34:49] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:34:49] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[14:34:49] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:34:49] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:34:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nether_brick_fence`, expected `futuremc`. This could be a intended override, but in most cases indicates a broken mod.
-[14:34:49] [Server thread/INFO] [FML]: Applying holder lookups
-[14:34:49] [Server thread/INFO] [FML]: Holder lookups applied
-[14:34:49] [Server thread/INFO] [FML]: Injecting itemstacks
-[14:34:49] [Server thread/INFO] [FML]: Itemstack injection complete
-[14:34:49] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 10 mods
-[14:34:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[14:34:49] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[14:34:49] [Server thread/INFO] [FML]: Applying holder lookups
-[14:34:49] [Server thread/INFO] [FML]: Holder lookups applied
-[14:34:49] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@20546679)
-[14:34:49] [Server thread/ERROR] [net.minecraft.advancements.AdvancementManager]: Parsing error loading built-in advancement minecraft:recipes/redstone/trapdoor
+[17:22:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[17:22:51] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[17:22:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[17:22:51] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[17:22:51] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_442, running on Linux:amd64:6.8.0-1021-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[17:22:51] [main/INFO] [FML]: Searching /workspaces/server1/servidor_minecraft/./mods for mods
+[17:22:51] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Forgelin-1.8.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[17:22:51] [main/WARN] [FML]: The coremod net.shadowfacts.forgelin.preloader.ForgelinPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[17:22:51] [main/WARN] [FML]: The coremod ForgelinPlugin (net.shadowfacts.forgelin.preloader.ForgelinPlugin) is not signed!
+[17:22:51] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in future-mc-0.2.11.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[17:22:51] [main/WARN] [FML]: The coremod FutureMC (thedarkcolour.futuremc.asm.CoreLoader) is not signed!
+[17:22:51] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_G5.jar
+[17:22:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:22:51] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[17:22:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:22:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:22:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:22:51] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[17:22:51] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[17:22:51] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: Forge server detected, skipping class transformer
+[17:22:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:22:53] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[17:22:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:22:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:22:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:22:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:22:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:22:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:22:53] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[17:22:53] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[17:22:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[17:22:56] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[17:22:56] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[17:22:56] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[17:22:56] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[17:22:57] [Server thread/INFO] [FML]: Searching /workspaces/server1/servidor_minecraft/./mods for mods
+[17:22:57] [Server thread/INFO] [FML]: Forge Mod Loader has identified 10 mods to load
+[17:22:57] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[17:22:57] [Server thread/WARN] [FML]: Missing English translation for aiimprovements: assets/aiimprovements/lang/en_us.lang
+[17:22:57] [Server thread/WARN] [FML]: Missing English translation for forgelin: assets/forgelin/lang/en_us.lang
+[17:22:58] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aiimprovements, forgelin, futuremc, jei, journeymap, mca] at CLIENT
+[17:22:58] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aiimprovements, forgelin, futuremc, jei, journeymap, mca] at SERVER
+[17:22:59] [Server thread/INFO] [FutureMC]: Ido is gone...
+[17:22:59] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[17:22:59] [Server thread/INFO] [FML]: Found 1175 ObjectHolder annotations
+[17:22:59] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[17:22:59] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[17:22:59] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[17:22:59] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[17:22:59] [Server thread/ERROR] [mca]: Failed to GET from: https://minecraftcomesalive.com/api/latest
+[17:22:59] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[17:22:59] [Server thread/ERROR] [mca]: Failed to GET from: https://minecraftcomesalive.com/api/supporters
+[17:22:59] [Server thread/INFO] [mca]: Loaded 1 supporters.
+[17:22:59] [Server thread/INFO] [FML]: Applying holder lookups
+[17:22:59] [Server thread/INFO] [FML]: Holder lookups applied
+[17:23:00] [Server thread/INFO] [FML]: Applying holder lookups
+[17:23:00] [Server thread/INFO] [FML]: Holder lookups applied
+[17:23:00] [Server thread/INFO] [FML]: Applying holder lookups
+[17:23:00] [Server thread/INFO] [FML]: Holder lookups applied
+[17:23:00] [Server thread/INFO] [FML]: Applying holder lookups
+[17:23:00] [Server thread/INFO] [FML]: Holder lookups applied
+[17:23:00] [Server thread/INFO] [FML]: Injecting itemstacks
+[17:23:00] [Server thread/INFO] [FML]: Itemstack injection complete
+[17:23:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[17:23:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[17:23:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[17:23:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[17:23:00] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[17:23:00] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:23:00] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[17:23:00] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:23:00] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:23:00] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nether_brick_fence`, expected `futuremc`. This could be a intended override, but in most cases indicates a broken mod.
+[17:23:00] [Server thread/INFO] [FML]: Applying holder lookups
+[17:23:00] [Server thread/INFO] [FML]: Holder lookups applied
+[17:23:00] [Server thread/INFO] [FML]: Injecting itemstacks
+[17:23:00] [Server thread/INFO] [FML]: Itemstack injection complete
+[17:23:00] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 10 mods
+[17:23:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[17:23:00] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[17:23:00] [Server thread/INFO] [FML]: Applying holder lookups
+[17:23:00] [Server thread/INFO] [FML]: Holder lookups applied
+[17:23:00] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@18e5daf1)
+[17:23:01] [Server thread/ERROR] [net.minecraft.advancements.AdvancementManager]: Parsing error loading built-in advancement minecraft:recipes/redstone/trapdoor
 com.google.gson.JsonSyntaxException: Unknown recipe 'minecraft:trapdoor'
 	at net.minecraft.advancements.AdvancementRewards$Deserializer.deserialize(AdvancementRewards.java:171) ~[l$a.class:?]
 	at net.minecraft.advancements.AdvancementRewards$Deserializer.deserialize(AdvancementRewards.java:147) ~[l$a.class:?]
@@ -105,21 +105,21 @@ com.google.gson.JsonSyntaxException: Unknown recipe 'minecraft:trapdoor'
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
-[14:34:50] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 487 advancements
-[14:34:50] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@20546679)
-[14:34:50] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@20546679)
-[14:34:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[14:34:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (1.764s)! For help, type "help" or "?"
-[14:34:51] [Server thread/INFO] [FML]: Unloading dimension -1
-[14:34:51] [Server thread/INFO] [FML]: Unloading dimension 1
-[14:34:55] [Netty Epoll Server IO #4/INFO] [FML]: Client protocol version 2
-[14:34:55] [Netty Epoll Server IO #4/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,futuremc@0.2.6,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forgelin@1.8.4,forge@14.23.5.2860,mca@6.1.0,mcp@9.42,aiimprovements@0.0.1.3,journeymap@1.12.2-5.5.3,jei@4.16.1.301
-[14:34:55] [Netty Epoll Server IO #4/INFO] [journeymap]: CLIENT
-[14:35:00] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[14:35:00] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Daisuke[/127.227.103.88:39337] logged in with entity id 43 at (745.2683566500469, 105.0, 473.02680258958725)
-[14:35:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke joined the game
-[14:35:00] [Server thread/INFO] [journeymap]: Daisuke joining dimension 0
-[14:35:00] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+[17:23:01] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 487 advancements
+[17:23:01] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@18e5daf1)
+[17:23:01] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@18e5daf1)
+[17:23:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[17:23:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (1.753s)! For help, type "help" or "?"
+[17:23:02] [Server thread/INFO] [FML]: Unloading dimension -1
+[17:23:02] [Server thread/INFO] [FML]: Unloading dimension 1
+[17:23:50] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[17:23:50] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,futuremc@0.2.6,FML@8.0.99.99,forgelin@1.8.4,forge@14.23.5.2860,mca@6.1.0,mcp@9.42,aiimprovements@0.0.1.3,rpghud@3.8.1,journeymap@1.12.2-5.5.3,jei@4.16.1.301
+[17:23:50] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
+[17:23:51] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[17:23:51] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: bones_v[/127.227.103.88:60445] logged in with entity id 9 at (88.64925218498658, 63.0, -1498.9035616056951)
+[17:23:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: bones_v joined the game
+[17:23:51] [Server thread/INFO] [journeymap]: bones_v joining dimension 0
+[17:23:51] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
 io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
 	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
@@ -155,17 +155,15 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
 	... 28 more
-[14:35:00] [Server thread/INFO] [journeymap]: Sending log in packet.
-[14:35:30] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Daisuke lost connection: Timed out
-[14:35:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke left the game
-[14:35:59] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[14:35:59] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,futuremc@0.2.6,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forgelin@1.8.4,forge@14.23.5.2860,mca@6.1.0,mcp@9.42,aiimprovements@0.0.1.3,journeymap@1.12.2-5.5.3,jei@4.16.1.301
-[14:35:59] [Netty Epoll Server IO #0/INFO] [journeymap]: CLIENT
-[14:36:00] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[14:36:00] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Daisuke[/127.227.103.88:47083] logged in with entity id 848 at (745.2683566500469, 105.0, 473.02680258958725)
-[14:36:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke joined the game
-[14:36:00] [Server thread/INFO] [journeymap]: Daisuke joining dimension 0
-[14:36:00] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+[17:23:51] [Server thread/INFO] [journeymap]: Sending log in packet.
+[17:24:18] [Netty Epoll Server IO #5/INFO] [FML]: Client protocol version 2
+[17:24:18] [Netty Epoll Server IO #5/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,futuremc@0.2.6,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forgelin@1.8.4,forge@14.23.5.2860,mca@6.1.0,mcp@9.42,aiimprovements@0.0.1.3,journeymap@1.12.2-5.5.3,jei@4.16.1.301
+[17:24:18] [Netty Epoll Server IO #5/INFO] [journeymap]: CLIENT
+[17:24:19] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[17:24:19] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Daisuke[/127.227.103.88:47357] logged in with entity id 313 at (749.4607974557052, 106.0, 478.94446015120275)
+[17:24:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke joined the game
+[17:24:19] [Server thread/INFO] [journeymap]: Daisuke joining dimension 0
+[17:24:19] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
 io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
 	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
@@ -201,17 +199,20 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
 	... 28 more
-[14:36:00] [Server thread/INFO] [journeymap]: Sending log in packet.
-[14:36:30] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Daisuke lost connection: Timed out
-[14:36:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke left the game
-[14:37:28] [Netty Epoll Server IO #4/INFO] [FML]: Client protocol version 2
-[14:37:28] [Netty Epoll Server IO #4/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,futuremc@0.2.6,FML@8.0.99.99,forgelin@1.8.4,forge@14.23.5.2860,mca@6.1.0,mcp@9.42,aiimprovements@0.0.1.3,rpghud@3.8.1,journeymap@1.12.2-5.5.3,jei@4.16.1.301
-[14:37:28] [Netty Epoll Server IO #4/INFO] [journeymap]: CLIENT
-[14:37:31] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[14:37:31] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: bones_v[/127.227.103.88:34001] logged in with entity id 1067 at (81.87036141084424, 63.0, -1498.5729043051347)
-[14:37:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: bones_v joined the game
-[14:37:31] [Server thread/INFO] [journeymap]: bones_v joining dimension 0
-[14:37:31] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+[17:24:19] [Server thread/INFO] [journeymap]: Sending log in packet.
+[17:24:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Daisuke> te amo marco
+[17:24:48] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Daisuke moved too quickly! 2.084698416407605,-0.07840000152587834,-9.90985475998309
+[17:24:49] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Daisuke lost connection: Timed out
+[17:24:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke left the game
+[17:24:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <bones_v> xddddddddddddddd
+[17:25:08] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
+[17:25:08] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,futuremc@0.2.6,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forgelin@1.8.4,forge@14.23.5.2860,mca@6.1.0,mcp@9.42,aiimprovements@0.0.1.3,journeymap@1.12.2-5.5.3,jei@4.16.1.301
+[17:25:08] [Netty Epoll Server IO #0/INFO] [journeymap]: CLIENT
+[17:25:33] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[17:25:33] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Daisuke[/127.227.103.88:51429] logged in with entity id 1846 at (748.5062150723429, 105.0, 467.68331673373854)
+[17:25:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke joined the game
+[17:25:33] [Server thread/INFO] [journeymap]: Daisuke joining dimension 0
+[17:25:33] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
 io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
 	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
@@ -247,17 +248,17 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
 	... 28 more
-[14:37:31] [Server thread/INFO] [journeymap]: Sending log in packet.
-[14:38:01] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: bones_v lost connection: Timed out
-[14:38:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: bones_v left the game
-[14:40:31] [Netty Epoll Server IO #7/INFO] [FML]: Client protocol version 2
-[14:40:31] [Netty Epoll Server IO #7/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,futuremc@0.2.6,FML@8.0.99.99,forgelin@1.8.4,forge@14.23.5.2860,mca@6.1.0,mcp@9.42,aiimprovements@0.0.1.3,rpghud@3.8.1,journeymap@1.12.2-5.5.3,jei@4.16.1.301
-[14:40:31] [Netty Epoll Server IO #7/INFO] [journeymap]: CLIENT
-[14:40:32] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[14:40:32] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: bones_v[/127.227.103.88:51371] logged in with entity id 1524 at (81.83881883026949, 63.0, -1498.6656893431887)
-[14:40:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: bones_v joined the game
-[14:40:32] [Server thread/INFO] [journeymap]: bones_v joining dimension 0
-[14:40:32] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+[17:25:33] [Server thread/INFO] [journeymap]: Sending log in packet.
+[17:26:48] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Daisuke lost connection: Timed out
+[17:26:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke left the game
+[17:27:25] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
+[17:27:25] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,futuremc@0.2.6,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forgelin@1.8.4,forge@14.23.5.2860,mca@6.1.0,mcp@9.42,aiimprovements@0.0.1.3,journeymap@1.12.2-5.5.3,jei@4.16.1.301
+[17:27:25] [Netty Epoll Server IO #3/INFO] [journeymap]: CLIENT
+[17:27:25] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[17:27:25] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Daisuke[/127.227.103.88:40677] logged in with entity id 7736 at (737.9729552250658, 106.0, 480.6444008078871)
+[17:27:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke joined the game
+[17:27:25] [Server thread/INFO] [journeymap]: Daisuke joining dimension 0
+[17:27:25] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
 io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
 	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
@@ -293,17 +294,11 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
 	... 28 more
-[14:40:32] [Server thread/INFO] [journeymap]: Sending log in packet.
-[14:40:54] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: bones_v lost connection: Disconnected
-[14:40:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: bones_v left the game
-[14:43:49] [Netty Epoll Server IO #5/INFO] [FML]: Client protocol version 2
-[14:43:49] [Netty Epoll Server IO #5/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,futuremc@0.2.6,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forgelin@1.8.4,forge@14.23.5.2860,mca@6.1.0,mcp@9.42,aiimprovements@0.0.1.3,journeymap@1.12.2-5.5.3,jei@4.16.1.301
-[14:43:49] [Netty Epoll Server IO #5/INFO] [journeymap]: CLIENT
-[14:43:49] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[14:43:49] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Daisuke[/127.227.103.88:57763] logged in with entity id 1800 at (745.2683566500469, 105.0, 473.02680258958725)
-[14:43:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke joined the game
-[14:43:49] [Server thread/INFO] [journeymap]: Daisuke joining dimension 0
-[14:43:49] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+[17:27:25] [Server thread/INFO] [journeymap]: Sending log in packet.
+[17:31:27] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Daisuke moved too quickly! 3.8449306977834112,-0.24918707874468282,9.373360051911845
+[17:31:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke fell from a high place
+[17:32:00] [Server thread/INFO] [journeymap]: Daisuke joining dimension 0
+[17:32:00] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
 io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
 	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
@@ -322,14 +317,15 @@ io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined d
 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
 	at net.minecraft.world.World.func_72838_d(World.java:1209) [amu.class:?]
 	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:1058) [oo.class:?]
-	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:377) [pl.class:?]
-	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:166) [pl.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
-	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
-	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.management.PlayerList.func_72368_a(PlayerList.java:585) [pl.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147342_a(NetHandlerPlayServer.java:1121) [pa.class:?]
+	at net.minecraft.network.play.client.CPacketClientStatus.func_148833_a(SourceFile:31) [lb.class:?]
+	at net.minecraft.network.play.client.CPacketClientStatus.func_148833_a(SourceFile:8) [lb.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) [hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_442]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_442]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
 	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
@@ -338,192 +334,7 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
 	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
-	... 28 more
-[14:43:49] [Server thread/INFO] [journeymap]: Sending log in packet.
-[14:44:20] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Daisuke lost connection: Timed out
-[14:44:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke left the game
-[14:44:33] [Netty Epoll Server IO #6/INFO] [FML]: Client protocol version 2
-[14:44:33] [Netty Epoll Server IO #6/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,futuremc@0.2.6,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forgelin@1.8.4,forge@14.23.5.2860,mca@6.1.0,mcp@9.42,aiimprovements@0.0.1.3,journeymap@1.12.2-5.5.3,jei@4.16.1.301
-[14:44:33] [Netty Epoll Server IO #6/INFO] [journeymap]: CLIENT
-[14:44:35] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[14:44:35] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Daisuke[/127.227.103.88:58701] logged in with entity id 2594 at (749.4607974557052, 106.0, 478.94446015120275)
-[14:44:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke joined the game
-[14:44:35] [Server thread/INFO] [journeymap]: Daisuke joining dimension 0
-[14:44:35] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
-io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
-	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
-	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
-	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
-	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_43_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraft.world.World.func_72838_d(World.java:1209) [amu.class:?]
-	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:1058) [oo.class:?]
-	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:377) [pl.class:?]
-	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:166) [pl.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
-	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
-	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
-Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
-	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
-	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
-	... 28 more
-[14:44:35] [Server thread/INFO] [journeymap]: Sending log in packet.
-[14:44:50] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Daisuke lost connection: Timed out
-[14:44:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke left the game
-[14:45:30] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[14:45:30] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,futuremc@0.2.6,FML@8.0.99.99,forgelin@1.8.4,forge@14.23.5.2860,mca@6.1.0,mcp@9.42,aiimprovements@0.0.1.3,rpghud@3.8.1,journeymap@1.12.2-5.5.3,jei@4.16.1.301
-[14:45:30] [Netty Epoll Server IO #1/INFO] [journeymap]: CLIENT
-[14:45:33] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[14:45:33] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: bones_v[/127.227.103.88:39799] logged in with entity id 2925 at (88.64925218498658, 63.0, -1498.9035616056951)
-[14:45:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: bones_v joined the game
-[14:45:33] [Server thread/INFO] [journeymap]: bones_v joining dimension 0
-[14:45:33] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
-io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
-	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
-	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
-	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
-	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_43_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraft.world.World.func_72838_d(World.java:1209) [amu.class:?]
-	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:1058) [oo.class:?]
-	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:377) [pl.class:?]
-	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:166) [pl.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
-	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
-	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
-Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
-	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
-	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
-	... 28 more
-[14:45:33] [Server thread/INFO] [journeymap]: Sending log in packet.
-[14:45:49] [Netty Epoll Server IO #4/INFO] [FML]: Client protocol version 2
-[14:45:49] [Netty Epoll Server IO #4/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,futuremc@0.2.6,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forgelin@1.8.4,forge@14.23.5.2860,mca@6.1.0,mcp@9.42,aiimprovements@0.0.1.3,journeymap@1.12.2-5.5.3,jei@4.16.1.301
-[14:45:49] [Netty Epoll Server IO #4/INFO] [journeymap]: CLIENT
-[14:45:52] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[14:45:52] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Daisuke[/127.227.103.88:60529] logged in with entity id 3180 at (749.4607974557052, 106.0, 478.94446015120275)
-[14:45:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke joined the game
-[14:45:52] [Server thread/INFO] [journeymap]: Daisuke joining dimension 0
-[14:45:52] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
-io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
-	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
-	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
-	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
-	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_43_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraft.world.World.func_72838_d(World.java:1209) [amu.class:?]
-	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:1058) [oo.class:?]
-	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:377) [pl.class:?]
-	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:166) [pl.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
-	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
-	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
-Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
-	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
-	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
-	... 28 more
-[14:45:52] [Server thread/INFO] [journeymap]: Sending log in packet.
-[14:46:03] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: bones_v lost connection: Timed out
-[14:46:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: bones_v left the game
-[14:46:22] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Daisuke lost connection: Timed out
-[14:46:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Daisuke left the game
-[14:46:46] [Netty Epoll Server IO #5/INFO] [FML]: Client protocol version 2
-[14:46:46] [Netty Epoll Server IO #5/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,futuremc@0.2.6,FML@8.0.99.99,forgelin@1.8.4,forge@14.23.5.2860,mca@6.1.0,mcp@9.42,aiimprovements@0.0.1.3,rpghud@3.8.1,journeymap@1.12.2-5.5.3,jei@4.16.1.301
-[14:46:46] [Netty Epoll Server IO #5/INFO] [journeymap]: CLIENT
-[14:46:47] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[14:46:47] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: bones_v[/127.227.103.88:46807] logged in with entity id 3563 at (88.64925218498658, 63.0, -1498.9035616056951)
-[14:46:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: bones_v joined the game
-[14:46:47] [Server thread/INFO] [journeymap]: bones_v joining dimension 0
-[14:46:47] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
-io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
-	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
-	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
-	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
-	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_43_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraft.world.World.func_72838_d(World.java:1209) [amu.class:?]
-	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:1058) [oo.class:?]
-	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:377) [pl.class:?]
-	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:166) [pl.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
-	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
-	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
-Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
-	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
-	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
-	... 28 more
-[14:46:47] [Server thread/INFO] [journeymap]: Sending log in packet.
-[14:47:03] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: bones_v lost connection: Disconnected
-[14:47:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: bones_v left the game
-[14:47:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Seed: 1021864529699685329
+	... 29 more
+[17:32:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Daisuke> ALFIN
+[17:32:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Daisuke> EL PUNTO DE REAPARICION SIRVE AL FIN
+[17:32:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <bones_v> xdddddddddddddddd
