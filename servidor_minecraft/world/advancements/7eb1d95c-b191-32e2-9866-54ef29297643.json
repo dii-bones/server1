@@ -257,6 +257,7 @@
       "cooked_mutton": "2025-03-27 02:53:32 +0000",
       "cooked_beef": "2025-03-27 03:02:00 +0000",
       "porkchop": "2025-03-27 18:32:48 +0000",
+      "cooked_cod": "2025-03-29 01:18:38 +0000",
       "bread": "2025-03-27 18:47:13 +0000",
       "rotten_flesh": "2025-03-27 02:42:25 +0000",
       "cooked_salmon": "2025-03-29 01:12:12 +0000"
@@ -458,6 +459,12 @@
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2025-03-27 02:13:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-03-29 01:23:04 +0000"
     },
     "done": true
   },

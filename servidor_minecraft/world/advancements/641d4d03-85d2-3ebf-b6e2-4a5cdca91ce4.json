@@ -119,6 +119,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_the_recipe": "2025-03-29 01:32:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2025-03-27 01:52:47 +0000"
@@ -245,7 +251,8 @@
       "cooked_mutton": "2025-03-27 02:24:46 +0000",
       "cooked_beef": "2025-03-27 03:24:28 +0000",
       "golden_apple": "2025-03-29 01:02:53 +0000",
-      "cooked_chicken": "2025-03-27 03:19:19 +0000"
+      "cooked_chicken": "2025-03-27 03:19:19 +0000",
+      "carrot": "2025-03-29 01:31:05 +0000"
     },
     "done": false
   },
@@ -643,6 +650,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-03-28 00:59:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_at_least_9_redstone": "2025-03-29 01:32:16 +0000"
     },
     "done": true
   },
